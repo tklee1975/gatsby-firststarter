@@ -103,3 +103,15 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Others
+Adding SASS Plugin 
+yarn add -D sass 
+yarn add -D gatsby-plugin-sass
+
+Add to gatsby-config.js
+```
+plugins: [
+  `gatsby-plugin-sass`
+]
+```
