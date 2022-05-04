@@ -1,14 +1,21 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
+import Layout from "../components/layout"
+import Title from "../components/title"
 
-const IndexPage = () => (
-    <div>
+const IndexPage = ({data}) => (
+    <Layout>
+        <Title title={data.site.siteMetadata.title}/>
         <div>Hello Gatsby</div>
-        <nav>
-            <Link to="/">Home</Link>
-            | <Link to="/about">About</Link>
-        </nav>
-    </div>
+    </Layout>
 )
-
 export default IndexPage;
+
+// --- Query ---
+export const query = graphql`query {
+    site {
+        siteMetadata {
+            title
+        }
+    }
+}`
