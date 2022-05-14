@@ -13,7 +13,7 @@
     }
   
     .button {
-      background-color: $color-pallete-1;
+      background-color: $color-palette-1;
       display: inline-block;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 12px;
@@ -30,7 +30,7 @@
       margin-bottom: 10px;
   
         &:hover {
-          background-color: $color-pallete-2;
+          background-color: $color-palette-2;
         }
   
     }
@@ -60,7 +60,7 @@
     }
   
     .link {
-      color: $color-pallete-1;
+      color: $color-palette-1;
       
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 17px;
@@ -68,7 +68,7 @@
       text-decoration: none;
   
       &:hover {
-        color: $color-pallete-2;
+        color: $color-palette-2;
       }
   
       &:not(:last-child) {

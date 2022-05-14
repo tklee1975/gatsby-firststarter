@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import * as styles from './layout.module.scss'
 import Header from './header'
 import Footer from "./footer"

@@ -38,9 +38,9 @@ const SocialButton = (props) => {
       <div className={style}>{props.children}&nbsp;</div>
     </a>
   )
-}
+};
 
-export default () => (
+const Header = () => (
   <StaticQuery
     query={
       graphql`
@@ -72,3 +72,5 @@ export default () => (
     )}
   />
 )
+
+export default Header;

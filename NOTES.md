@@ -4,5 +4,11 @@ Page, Layout, Regular
 ## Gatsby & data 
 
 Gatsby -> GraphQL -> Data -> Page 
-(at build time)
+(at build & run time)
+
+## 
+Page Queries on Page Components (index.js / about.js)
+Static Queries on Components (header.js)
+
+## 
 
