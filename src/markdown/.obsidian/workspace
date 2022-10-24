@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "d531958d4b9c9a05",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c461f472ac64a57",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "document-2.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9becb4b91e07dfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8464a5ab5a70d42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9afee52e6be309f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "04479f8bdeaa5c9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96a75dc3a1859e6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb4ec71fb81e1d6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4098fc40f5276141",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "document-2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6c461f472ac64a57",
+  "lastOpenFiles": [
+    "document-2.md",
+    "gatsby-awesome.md"
+  ]
+}
